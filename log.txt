@@ -1,0 +1,408 @@
+
+Cannot make the drive , you dont have enough fuel! , 2023-01-22 14:00:25.131655
+Cannot make the drive , you dont have enough fuel! , 2023-01-22 14:05:34.664144
+Passed: with Parameters True,True , 2023-01-22 14:39:20.876474
+Passed: with Parameters self.car.get_engine_status(),True , 2023-01-22 14:39:57.809172
+Passed: with Parameters self.car.get_engine_status(),True , 2023-01-22 14:40:31.083454
+Failed: False != True , 2023-01-22 14:40:47.220215
+Failed:
+ , 2023-01-22 14:41:49.535686
+Passed: with Parameters self.car.get_engine_status(),True , 2023-01-22 14:42:12.798633
+Passed: with Parameters True,True , 2023-01-22 14:42:53.834308
+Failed: False != True , 2023-01-22 14:45:48.268935
+Failed (test_engine_start): False != True , 2023-01-22 14:50:28.517395
+Passed (test_engine_start): with Parameters True,True , 2023-01-22 14:59:49.296745
+Passed (test_engine_start): with Parameters True,True , 2023-01-22 16:34:03.101022
+Passed (test_engine_start): with Parameters 50,50 , 2023-01-22 16:34:57.732714
+Passed (test_engine_start): with Parameters 2,2 , 2023-01-22 16:36:16.309243
+Passed (test_gear_up_exception_throw): with Error Raised <unittest.case._AssertRaisesContext object at 0x000001F3D5BFC430>,<class 'ValueError'> , 2023-01-22 16:38:41.417888
+Passed (test_gear_up_exception_throw): with Error Raised ValueError,ValueError , 2023-01-22 16:39:25.217742
+Passed (test_get_gear_speed): with Parameters 90,90 , 2023-01-22 16:41:39.899705
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-22 16:44:53.279175
+Passed (test_drive_exception_throw): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-22 16:48:48.426344
+Failed (test_drive_exception_throw): OverflowError not raised , 2023-01-22 16:49:11.768811
+Failed (test_drive_exception_throw): Expected: OverflowError , Actual: OverflowError not raised , 2023-01-22 16:50:11.701494
+Failed (test_get_gear_speed):  Expected: 90, Actual:  90 != 80 , 2023-01-22 16:50:53.615617
+Failed (test_set_fuel): Expected: 40, Actual:  40 != 30 , 2023-01-22 16:53:38.502329
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-22 16:53:47.529426
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-22 16:54:16.139866
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-22 16:57:17.885029
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-22 16:57:22.115229
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-22 16:57:52.074540
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-22 16:57:58.903065
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-22 16:57:58.906138
+Failed (test_drive_exception_throw): Expected: OverflowError , Actual: OverflowError not raised , 2023-01-22 16:57:58.910068
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-22 16:57:58.913066
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 16:57:58.915071
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-22 16:57:58.916583
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 16:57:58.918598
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-22 16:57:58.922594
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-22 16:57:58.926595
+Passed (test_drive_exception_throw): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-22 16:58:43.180232
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 17:06:20.971844
+Passed (test_fuel): with Parameters : Expected: False, Actual: False , 2023-01-22 17:09:26.053481
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-22 17:14:39.217750
+Passed (test_set_money_exception_ValueError): with Parameters : Expected: ValueError, Actual: ValueError , 2023-01-22 17:17:34.522151
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-22 17:19:31.953042
+Failed (test_fill_up_gas_by_fuel): Expected: 50, Actual:  50 != 40 , 2023-01-22 17:23:51.916149
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 17:24:18.799054
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-22 17:26:23.412191
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-22 17:31:55.529601
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-22 17:32:43.108321
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-22 17:33:23.499499
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 17:33:57.470872
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-22 17:34:26.693073
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 17:36:33.885792
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 17:37:43.229083
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 17:44:46.022479
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 17:46:36.405882
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-22 17:47:15.829882
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-22 17:47:44.981612
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-22 17:48:09.215321
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-22 17:48:43.979815
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-22 17:49:16.188313
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 17:49:49.168802
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-22 17:50:30.696271
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 17:51:24.898702
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-22 17:51:47.528719
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 17:52:53.970033
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-22 17:54:12.742618
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-22 17:57:03.419798
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 17:57:26.700291
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-22 17:59:18.953076
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-22 18:00:12.987645
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-22 18:00:12.989642
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-22 18:00:12.993662
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 18:00:12.994640
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-22 18:00:12.996666
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 18:00:12.997641
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-22 18:00:12.999662
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-22 18:00:13.002646
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-22 18:00:13.005637
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-22 18:00:13.007638
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 18:00:13.008637
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-22 18:00:13.010638
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 18:00:13.012636
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-22 18:00:13.016640
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 18:00:13.020640
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-22 18:00:13.023639
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-22 18:00:29.736080
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-22 18:00:29.739058
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-22 18:00:29.741055
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 18:00:29.743060
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-22 18:00:29.744055
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 18:00:29.746066
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-22 18:00:29.747066
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-22 18:00:29.749067
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-22 18:00:29.754144
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 18:00:29.757149
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-22 18:00:29.760701
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-22 18:00:29.762728
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-22 18:00:29.764733
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-22 18:00:29.765737
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-22 18:00:29.767706
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-22 18:00:29.770711
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 09:18:14.035802
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 09:18:14.038799
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 09:18:14.040800
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:18:14.042800
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 09:18:14.043800
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 09:18:14.045800
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 09:18:14.050804
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 09:18:14.053804
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 09:18:14.057805
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:18:14.060798
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 09:18:14.062800
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 09:18:14.064805
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 09:18:14.068803
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 09:18:14.071845
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:18:14.073845
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 09:18:14.074843
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 09:18:27.399623
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 09:18:27.400624
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 09:18:27.403139
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 09:18:27.405139
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 09:18:27.407140
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:18:27.409139
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 09:18:27.410143
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 09:18:27.414142
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 09:18:27.418148
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 09:18:27.420162
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:18:27.421141
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 09:18:27.423166
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:18:27.424140
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 09:18:27.426163
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 09:18:27.429149
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 09:18:27.431146
+Failed (test_engine_start): Expected: False, Actual:  False != True , 2023-01-23 09:49:49.063943
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 09:49:58.177023
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 09:51:12.265259
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 09:51:12.267259
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 09:51:12.270266
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 09:51:12.271267
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 09:51:12.273265
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:51:12.274264
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 09:51:12.276282
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 09:51:12.277261
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 09:51:12.279290
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 09:51:12.282850
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:51:12.283856
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 09:51:12.285852
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:51:12.286855
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 09:51:12.287825
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 09:51:12.289855
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 09:51:12.290857
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 09:51:12.294009
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 09:51:12.295943
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 09:51:12.297957
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:51:12.300005
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 09:51:12.302004
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 09:51:12.303042
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 09:51:12.305008
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 09:51:12.306008
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 09:51:12.308009
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:51:12.309001
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 09:51:12.311007
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 09:51:12.312944
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 09:51:12.315004
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 09:51:12.317024
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 09:51:12.318011
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 09:51:12.318943
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:01:59.364458
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:01:59.366459
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:01:59.368455
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:01:59.370453
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:01:59.371455
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:01:59.372456
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:01:59.374455
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:01:59.375453
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:01:59.377456
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:01:59.378454
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:01:59.380454
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:01:59.383452
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:01:59.385457
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:01:59.387457
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:01:59.389463
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:01:59.390457
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:01:59.393456
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:01:59.395454
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:01:59.399462
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:01:59.401456
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:01:59.403455
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:01:59.404455
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:01:59.406454
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:01:59.407455
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:01:59.409456
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:01:59.410454
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:01:59.412451
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:01:59.414457
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:01:59.415455
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:01:59.417455
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:01:59.419465
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:01:59.421457
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:05:34.684652
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:05:34.687721
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:05:34.688703
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:05:34.690659
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:05:34.691653
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:05:34.693718
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:05:34.694653
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:05:34.695652
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:05:34.697720
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:05:34.698660
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:05:34.700718
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:05:34.703655
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:05:34.705654
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:05:34.707721
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:05:34.709716
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:05:34.710654
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:05:34.712655
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:05:34.714652
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:05:34.715655
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:05:34.717721
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:05:34.719734
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:05:34.720653
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:05:34.722719
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:05:34.723652
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:05:34.725719
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:05:34.726655
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:05:34.727655
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:05:34.729655
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:05:34.730653
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:05:34.732726
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:05:34.734655
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:05:34.736656
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:05:57.623270
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:06:02.729405
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:06:02.731405
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:06:02.733464
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:06:02.735491
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:06:02.737464
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:06:02.739471
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:06:02.741464
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:06:02.742404
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:06:02.744482
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:06:02.746463
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:06:02.748457
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:06:02.749403
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:06:02.751466
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:06:02.753464
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:06:02.754462
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:06:02.756472
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:06:02.759462
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:06:02.762411
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:06:02.765489
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:06:02.767469
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:06:02.769463
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:06:02.770479
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:06:02.772467
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:06:02.774403
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:06:02.775470
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:06:02.777404
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:06:02.779434
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:06:02.781413
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:06:02.783428
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:06:02.784405
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:06:02.786427
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:06:02.787442
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:06:23.014673
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:09:17.776863
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:09:17.778874
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:09:26.280054
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:09:26.282074
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:09:33.124713
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:10:19.255959
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:10:29.996063
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:10:29.998071
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:10:30.000148
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:10:30.002108
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:10:30.003130
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:10:30.005152
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:10:30.008070
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:10:30.010117
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:10:30.013076
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:10:30.015072
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:10:30.017068
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:10:30.018070
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:10:30.020098
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:10:30.021096
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:10:30.022071
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:10:30.024130
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:10:30.027071
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:10:30.029121
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:10:30.030130
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:10:30.032116
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:10:30.033131
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:10:30.035081
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:10:30.036074
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:10:30.038067
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:10:30.041072
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:10:30.044072
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:10:30.046148
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:10:30.048136
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:10:30.049111
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:10:30.051121
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:10:30.053120
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:10:30.054135
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:22:52.681915
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:23:37.503274
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:24:12.244396
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:24:12.245453
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:24:12.248942
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:24:12.251941
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:24:12.254942
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:24:12.255941
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:24:12.257440
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:24:12.259453
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:24:12.261626
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:24:12.267623
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:24:12.271624
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:24:12.275622
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:24:12.279624
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:24:12.283623
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:24:12.286130
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:24:12.287068
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:37:33.618027
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:37:33.620220
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:37:33.621644
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:37:33.623649
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:37:33.625655
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:37:33.626650
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:37:33.628101
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:37:33.629488
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:37:33.630843
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:37:33.633268
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:37:33.637334
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:37:33.639558
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:37:33.641031
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:37:33.643042
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:37:33.644439
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:37:33.645826
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 10:37:33.649213
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 10:37:33.653211
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 10:37:33.655288
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:37:33.656212
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 10:37:33.658215
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:37:33.659215
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 10:37:33.660546
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 10:37:33.661918
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 10:37:33.663929
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:37:33.665924
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 10:37:33.667928
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 10:37:33.669174
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 10:37:33.670595
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 10:37:33.671935
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 10:37:33.673941
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 10:37:33.675946
+Cannot sets Fuel You should enter as a parameter a fuel between -! , 2023-01-23 11:21:51.904090
+Cannot sets Fuel You should enter as a parameter a fuel between 0-50! , 2023-01-23 11:24:54.191411
+Cannot sets Fuel You should enter as a parameter a fuel between 0-50! , 2023-01-23 11:26:26.765207
+Cannot sets Fuel You should enter as a parameter a fuel between 0-50! , 2023-01-23 11:28:29.761504
+Cannot sets Fuel You should enter as a parameter a fuel between {}-{}! , 2023-01-23 11:29:59.010811
+f'Cannot sets Fuel You should enter as a parameter a fuel between {}-{}!' , 2023-01-23 11:30:13.074733
+Cannot sets Fuel You should enter as a parameter a fuel between '{}'-'{}'! , 2023-01-23 11:30:28.932027
+Cannot sets Fuel You should enter as a parameter a fuel between {}-{}! , 2023-01-23 11:31:52.513586
+unhashable type: 'set' , 2023-01-23 11:33:58.131713
+unhashable type: 'set' , 2023-01-23 11:34:07.257236
+Cannot sets Fuel You should enter as a parameter a fuel between {}-{}! , 2023-01-23 11:34:23.737620
+f'Cannot sets Fuel You should enter as a parameter a fuel between '{}'-'{}'!' , 2023-01-23 11:34:46.399277
+Cannot sets Fuel You should enter as a parameter a fuel between {}-{}! , 2023-01-23 11:37:44.897736
+Cannot sets Fuel You should enter as a parameter a fuel between 0-50! , 2023-01-23 11:38:45.270761
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 11:39:11.511181
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 11:39:11.513182
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 11:39:11.514159
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 11:39:11.516181
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 11:39:11.517159
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 11:39:11.519184
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 11:39:11.521180
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 11:39:11.522158
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 11:39:11.524188
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 11:39:11.526179
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 11:39:11.527187
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 11:39:11.528158
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 11:39:11.530157
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 11:39:11.531159
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 11:39:11.533157
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 11:39:11.534159
+Passed (test_drive_by_fuel): with Parameters : Expected: 49.0, Actual: 49 , 2023-01-23 11:39:11.538180
+Passed (test_drive_by_gear): with Parameters : Expected: 0, Actual: 0 , 2023-01-23 11:39:11.539188
+Passed (test_drive_exception_OverflowError): with Error Raised : Expected: OverflowError, Actual: OverflowError , 2023-01-23 11:39:11.541158
+Passed (test_drive_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 11:39:11.542158
+Passed (test_engine_start): with Parameters : Expected: True , Actual: True , 2023-01-23 11:39:11.544157
+Passed (test_fill_up_gas_by_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 11:39:11.546164
+Passed (test_fill_up_gas_by_money): with Parameters : Expected: 400.0, Actual: 400 , 2023-01-23 11:39:11.547164
+Passed (test_fuel): with Parameters : Expected: 50, Actual: 50 , 2023-01-23 11:39:11.549163
+Passed (test_gear_up): with Parameters : Expected: 2, Actual: 2 , 2023-01-23 11:39:11.550163
+Passed (test_gear_up_exception_throw): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 11:39:11.551164
+Passed (test_get_gear_speed): with Parameters : Expected: 90, Actual: 90 , 2023-01-23 11:39:11.554164
+Passed (test_set_fuel): with Parameters : Expected: 40 , Actual: 40 , 2023-01-23 11:39:11.556164
+Passed (test_set_money): with Parameters : Expected: 1000, Actual: 1000 , 2023-01-23 11:39:11.557163
+Passed (test_set_money_exception_TypeError): with Error Raised : Expected: TypeError, Actual: TypeError , 2023-01-23 11:39:11.558163
+Passed (test_set_money_exception_ValueError): with Error Raised : Expected: ValueError, Actual: ValueError , 2023-01-23 11:39:11.559670
+Passed (test_turn_off): with Parameters : Expected: False, Actual: False , 2023-01-23 11:39:11.561676
+Cannot sets Fuel You should enter as a parameter a fuel between 0-50! , 2023-01-23 12:42:05.960003
+Cannot Set Gear You should enter as a parameter a gear between 0-6! , 2023-01-23 12:43:41.448058
+Cannot sets Fuel You should enter as a parameter a fuel between 0-6! , 2023-01-23 12:46:27.460852
+Cannot sets Fuel You should enter as a parameter a fuel between 0-50! , 2023-01-23 12:48:26.855773
+Cannot Set Gear You should enter as a parameter a gear between 0-! , 2023-01-23 12:48:33.515091
+Cannot Set Gear You should enter as a parameter a gear between 0-6! , 2023-01-23 12:48:53.890364
